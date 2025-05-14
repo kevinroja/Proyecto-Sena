@@ -7,6 +7,7 @@ Proceso de recolección de información
 Se llevó a cabo una encuesta compuesta por 22 preguntas, dirigida al equipo encargado de la producción y administración. El objetivo fue identificar qué procedimiento les gustaría optimizar dentro de la empresa Kika Vargas S.A.S. Como resultado, se determinó que el proceso prioritario a mejorar es la recolección y consolidación de la información relacionada con los costos de fabricación de las prendas que la compañía produce y comercializa.
 
 Levantamiento de datos
+
 ![Imagen1](https://github.com/user-attachments/assets/218fecb3-2ea0-4e76-8e49-9ced3041b64a)
 ![Imagen2](https://github.com/user-attachments/assets/766fd27d-5510-4a65-a2af-a1264ee9b4ad)
 ![Imagen3](https://github.com/user-attachments/assets/715cd972-7ddf-4ccb-96f8-8c067a6c63c1)
