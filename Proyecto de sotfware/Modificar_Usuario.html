@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Modificar Usuario</title>
+  <link rel="stylesheet" href="EstiloModificacionUsuario.css" />
+</head>
+<body>
+  <div class="form-container">
+    <h2>Modificar Usuario</h2>
+
+    <input id="usuario" type="text" placeholder="Usuario" />
+    <input id="perfil" type="text" placeholder="Perfil" />
+    <input id="contrasena" type="password" placeholder="Contraseña" />
+    <input id="correo" type="email" placeholder="Correo" />
+
+    <div class="button-group">
+      <button class="btn aceptar" onclick="aceptar()">Aceptar</button>
+      <button class="btn cancelar" onclick="cancelar()">Cancelar</button>
+    </div>
+  </div>
+
+  <script>
+    function aceptar() {
+      const usuario = document.getElementById("usuario").value;
+      const perfil = document.getElementById("perfil").value;
+      const contrasena = document.getElementById("contrasena").value;
+      const correo = document.getElementById("correo").value;
+
+      console.log("Usuario:", usuario);
+      console.log("Perfil:", perfil);
+      console.log("Contraseña:", contrasena);
+      console.log("Correo:", correo);
+
+      window.location.href = "menu.html"; // Reemplaza con tu página de destino
+    }
+
+    function cancelar() {
+      window.location.href = "menu.html"; // Reemplaza con tu página de destino
+    }
+  </script>
+</body>
+</html>
