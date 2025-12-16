@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bloquear Usuario</title>
+  <link rel="stylesheet" href="EstiloEliminacionUsuario.css" />
+</head>
+<body>
+  <div class="form-container">
+    <h2>Bloquear Usuario</h2>
+
+    <input id="usuario" type="text" placeholder="Usuario" />
+    <input id="perfil" type="text" placeholder="Perfil" />
+    <div class="button-group">
+      <button class="btn aceptar" onclick="eliminar()">Aceptar</button>
+      <button class="btn cancelar" onclick="cancelar()">Cancelar</button>
+    </div>
+  </div>
+
+  <script>
+    function eliminar() {
+      const usuario = document.getElementById("usuario").value;
+      const perfil = document.getElementById("perfil").value;
+
+      console.log("Usuario a eliminar:", usuario);
+      // Aquí puedes implementar la lógica para eliminar el usuario
+      window.location.href = "menu.html"; // Redirigir al menú
+    }
+
+    function cancelar() {
+      window.location.href = "menu.html";
+    }
+  </script>
+</body>
+</html>
